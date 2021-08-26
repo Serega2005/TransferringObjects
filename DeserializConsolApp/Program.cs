@@ -21,7 +21,7 @@ namespace DeserializConsolApp
 
             PC compDes = new PC();
 
-            DeserializPC("D:\\Lenovo_01.txt", ref compDes);
+            DeserializPC("D:\\Samsung.txt", ref compDes);
             compDes.info();
 
             Console.WriteLine("Programm complite");
